@@ -149,17 +149,12 @@ export default function HeroSection() {
                 style={{ boxShadow: '0 0 60px rgba(212,175,55,0.2), 0 20px 60px rgba(0,0,0,0.5)' }}
               >
                 <AppImage
-                  src="/assets/images/Screenshot_2026-01-21_at_9.50.01_PM-1777614444411.png"
+                  src="/assets/images/ChatGPT_Image_Dec_21,_2025,_09_40_18_PM.png"
                   alt="Tasleem Banu — Multi-Cloud Architect and Cloud Consultant, professional headshot"
                   fill
-                  className="object-cover object-top"
+                  className="object-cover object-center"
                   priority
                   sizes="(max-width: 640px) 200px, (max-width: 1024px) 280px, 336px"
-                />
-                {/* Overlay to hide watermark at bottom of image */}
-                <div
-                  className="absolute bottom-0 left-0 right-0 h-20 pointer-events-none"
-                  style={{ background: 'linear-gradient(to top, rgba(10,22,40,1) 0%, rgba(10,22,40,0.85) 40%, transparent 100%)' }}
                 />
               </div>
 
